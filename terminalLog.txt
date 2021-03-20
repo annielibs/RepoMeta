@@ -1,0 +1,302 @@
+    1  ls
+    2  cd Repo1
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd RepoMetas
+    7  cd RepoMeta
+    8  ls
+    9  cd Repo1
+   10  ls
+   11  git commit
+   12  cd /users1/st/aliberma/.gitconfig
+   13  ls
+   14  cd ..
+   15  ls
+   16  cd ..
+   17  ls
+   18  ls -a
+   19  cat .config
+   20  cd .config
+   21  ls
+   22  cd abrt
+   23  ls
+   24  ls -a
+   25  git status
+   26  ls
+   27  cd ..
+   28  ls
+   29  open abrt/
+   30  cd ..
+   31  ls
+   32  ls -a
+   33  open .git/config
+   34  git checkout master
+   35  ls
+   36  ls -a
+   37  rm -rf .gitconfig
+   38  ls
+   39  git status
+   40  git reset HEAD <Lab5>
+   41  git status
+   42  ls
+   43  ls -a
+   44  cd ./.config
+   45  ls -a
+   46  cd
+   47  cd ./.git
+   48  ls -a
+   49  nano config
+   50  ls
+   51  cd ..
+   52  ls
+   53  git pull --allow-unrelated-histories origin master
+   54  git branch --show-current
+   55  git branch --list
+   56  git branch master
+   57  git checkout master
+   58  git merge master
+   59  git fetch
+   60  git merge master
+   61  git merge --abort
+   62  git branch -M master
+   63  git branch -r
+   64  git checkout -b origin/master
+   65  git reflog
+   66  git checkout -t origin/master
+   67  git checkout -m origin/master
+   68  git branch -D main
+   69  git checkout master
+   70  git branch --list
+   71  git commit -m "Temp merge"
+   72  git branch temp
+   73  git checkout master
+   74  git branch -D temp
+   75  git reset --hard
+   76  git checkout master
+   77  git status
+   78  git add --all
+   79  git branch --list
+   80  git commit -m "Deleted main branch, master only now"
+   81  git push -u origin master
+   82  git push -f -u origin master
+   83  git sttaus
+   84  git status
+   85  git push -f origin master
+   86  git status
+   87  git push origin --delete main
+   88  git fetch -p
+   89  git pull
+   90  ls
+   91  cd CS3115/
+   92  ls
+   93  cd ..
+   94  cp HalloWorld.java HelloWorld.java
+   95  git add HelloWorld.java
+   96  git remote add repo1 https://github.com/annielibs/Repo1
+   97  git commit -m "first commit"
+   98  git push -u repo1 master
+   99  history | tail -n150
+  100   1018  git add HelloWorld.java
+  101   1019  git remote add repo1 https://github.com/annielibs/Repo1
+  102   1020  git commit -m "first commit"
+  103   1021  git push -u repo1 master
+  104  ls
+  105  cat HelloWorld.java
+  106  nano HelloWorld.java
+  107  ls
+  108  cat HelloWorld.java
+  109  javac HelloWorld.java
+  110  ls
+  111  HelloWorld.java
+  112  java HelloWorld.
+  113  java HelloWorld.java
+  114  java HelloWorld
+  115  public class HelloWorld {
+  116          public static void main (String [] args){
+  117                  System.out.println ("Hello, World");
+  118          DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyy/MM/dd HH:mm:ss");
+  119          LocalDateTime now = LocalDateTime.now();
+  120                  System.out.println (dtf.format(now));
+  121          }
+  122  }
+  123  nano HelloWorld.java
+  124  cat HelloWorld.
+  125  cat HelloWorld.java
+  126  echo "# RepoMeta" >> README.md
+  127  git init
+  128  git add README.md
+  129  git commit -m "first commit"
+  130  git branch -M main
+  131  git remote add origin https://github.com/annielibs/RepoMeta.git
+  132  git push =u origin main
+  133  git push -u origin main
+  134  ls
+  135  cd Repo1
+  136  git add HelloWorld.java
+  137  cd ..
+  138  git add HelloWorld.java
+  139  git commit -m "Changed class name and added printing of current date and time"
+  140  git push -u repo1 master
+  141  git push -u origin master
+  142  git commit -m "Changed class name and added printing of current date and time"
+  143  git push origin master
+  144  history | tail n-20
+  145  ls
+  146  cd Repo1
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd RepoMetas
+  151  cd RepoMeta
+  152  ls
+  153  cd Repo1
+  154  ls
+  155  git commit
+  156  cd /users1/st/aliberma/.gitconfig
+  157  ls
+  158  cd ..
+  159  ls
+  160  cd ..
+  161  ls
+  162  ls -a
+  163  cat .config
+  164  cd .config
+  165  ls
+  166  cd abrt
+  167  ls
+  168  ls -a
+  169  git status
+  170  ls
+  171  cd ..
+  172  ls
+  173  open abrt/
+  174  cd ..
+  175  ls
+  176  ls -a
+  177  open .git/config
+  178  git checkout master
+  179  ls
+  180  ls -a
+  181  rm -rf .gitconfig
+  182  ls
+  183  git status
+  184  git reset HEAD <Lab5>
+  185  git status
+  186  ls
+  187  ls -a
+  188  cd ./.config
+  189  ls -a
+  190  cd
+  191  cd ./.git
+  192  ls -a
+  193  nano config
+  194  ls
+  195  cd ..
+  196  ls
+  197  git pull --allow-unrelated-histories origin master
+  198  git branch --show-current
+  199  git branch --list
+  200  git branch master
+  201  git checkout master
+  202  git merge master
+  203  git fetch
+  204  git merge master
+  205  git merge --abort
+  206  git branch -M master
+  207  git branch -r
+  208  git checkout -b origin/master
+  209  git reflog
+  210  git checkout -t origin/master
+  211  git checkout -m origin/master
+  212  git branch -D main
+  213  git checkout master
+  214  git branch --list
+  215  git commit -m "Temp merge"
+  216  git branch temp
+  217  git checkout master
+  218  git branch -D temp
+  219  git reset --hard
+  220  git checkout master
+  221  git status
+  222  git add --all
+  223  git branch --list
+  224  git commit -m "Deleted main branch, master only now"
+  225  git push -u origin master
+  226  git push -f -u origin master
+  227  git sttaus
+  228  git status
+  229  git push -f origin master
+  230  git status
+  231  git push origin --delete main
+  232  git fetch -p
+  233  git pull
+  234  ls
+  235  cd CS3115/
+  236  ls
+  237  cd ..
+  238  cp HalloWorld.java HelloWorld.java
+  239  git add HelloWorld.java
+  240  git remote add repo1 https://github.com/annielibs/Repo1
+  241  git commit -m "first commit"
+  242  git push -u repo1 master
+  243  history | tail -n150
+  244   1018  git add HelloWorld.java
+  245   1019  git remote add repo1 https://github.com/annielibs/Repo1
+  246   1020  git commit -m "first commit"
+  247   1021  git push -u repo1 master
+  248  ls
+  249  cat HelloWorld.java
+  250  nano HelloWorld.java
+  251  ls
+  252  cat HelloWorld.java
+  253  javac HelloWorld.java
+  254  ls
+  255  HelloWorld.java
+  256  java HelloWorld.
+  257  java HelloWorld.java
+  258  java HelloWorld
+  259  public class HelloWorld {
+  260          public static void main (String [] args){
+  261                  System.out.println ("Hello, World");
+  262          DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyy/MM/dd HH:mm:ss");
+  263          LocalDateTime now = LocalDateTime.now();
+  264                  System.out.println (dtf.format(now));
+  265          }
+  266  }
+  267  nano HelloWorld.java
+  268  cat HelloWorld.
+  269  cat HelloWorld.java
+  270  echo "# RepoMeta" >> README.md
+  271  git init
+  272  git add README.md
+  273  git commit -m "first commit"
+  274  git branch -M main
+  275  git remote add origin https://github.com/annielibs/RepoMeta.git
+  276  git push =u origin main
+  277  git push -u origin main
+  278  ls
+  279  cd Repo1
+  280  git add HelloWorld.java
+  281  cd ..
+  282  git add HelloWorld.java
+  283  git commit -m "Changed class name and added printing of current date and time"
+  284  git push -u repo1 master
+  285  git push -u origin master
+  286  git commit -m "Changed class name and added printing of current date and time"
+  287  git push origin master
+  288  history | tail n-20
+  289  history | tail n -20
+  290  svnadmin create /var/svn/repos
+  291  mkdir D:\SVNRepo2
+  292  svnadmin create --fs-type fsfs Repo2
+  293  ls
+  294  cd D:
+  295  cd D:SVNRepo2
+  296  ls
+  297  cd..
+  298  cd ..
+  299  ls
+  300  svn add HelloWorld.java
+  301  cd D:SVNRepo2
+  302  svn add HelloWorld.java
